@@ -1,13 +1,13 @@
 // Practice:
 
 // Make an array of favorite dishes
-let myFavDishes = ["Cicken Biryani", "Butter Chicken", "Naan"]
+let myFavDishes = ["Chicken Biryani", "Butter Chicken", "Naan"];
 console.log(myFavDishes)
 
 // Make an object for a restaurant menu item
 let menuItem = {
     name: "Chicken Biryani",
-    Price: 150,
+    price: 150,
     isAvailable:true
 };
 console.log(menuItem)
@@ -20,7 +20,7 @@ console.log(prepareOrder("Chicken Biryani"))
 
 // Use a callback to say "Enjoy your meal!"
 function greet(name, callback){
-    console.log("Hi " + `${name}`)
+    console.log("Hi " `${name}`)
     callback()
 }
     
